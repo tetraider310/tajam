@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-main {
+    background-image: url("img/trees.png");
+    height: 670px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    background-color: #2b2549;
+    opacity: .9;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.main-header {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+}
+
+.menu-list > li {
+    margin-right: 28px;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.menu-list > li:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.content-wrapper {
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+
+
